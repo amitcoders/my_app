@@ -1,7 +1,23 @@
 @extends('frontend.index')
 @section('content')
      <!-- Services Section Three -->
-     <section class="services-section-three style-two">
+      <!-- Services Section Three -->
+      <!-- Page Banner Section -->
+    <section class="page-banner">
+        <div class="image-layer lazy-image" data-bg="url('assets/images/background/image-11.jpg')"></div>
+        <div class="bottom-rotten-curve alternate"></div>
+
+        <div class="auto-container">
+            <h1>What We Do</h1>
+            <ul class="bread-crumb clearfix">
+                <li><a href="{{ route('home')}}">Home</a></li>
+                <li class="active">Services</li>
+            </ul>
+        </div>
+
+    </section>
+    <!--End Banner Section -->
+    <section class="services-section-three style-two">
 
 <div class="auto-container">
     <div class="row">
@@ -59,7 +75,7 @@
 
 <!-- Case Studies -->
 <section class="cases-section style-two">
-<div class="sec-bg" style="background-image: url(assets/images/background/image-14.jpg);"></div>        
+<div class="sec-bg" style="background-image: url({{ asset('assets/images/background/image-14.jpg')}}"></div>        
 <!--case Tabs-->
 <div class="case-tabs">
     <div class="auto-container">
@@ -86,13 +102,13 @@
                         <!-- case Blokc One -->
                         <div class="case-block-one">
                             <div class="inner-box">
-                                <div class="image"><img src="assets/images/gallery/gallery-24.jpg" alt=""></div>
+                                <div class="image"><img src="{{ asset('assets/images/gallery/gallery-24.jpg')}}" alt=""></div>
                                 <div class="overlay">
                                     <div>
                                         <h5>Business Consultancy</h5>
                                         <h2>Brixer Donald Company Business</h2>
                                         <div class="link-btn flex-box">
-                                            <a href="assets/images/gallery/gallery-24.jpg" data-fancybox="gallery-1" data-caption="" class="theme-btn"><i>+</i></a>
+                                            <a href="{{ asset('assets/images/gallery/gallery-24.jpg')}}" data-fancybox="gallery-1" data-caption="" class="theme-btn"><i>+</i></a>
                                         </div>
                                     </div>                                          
                                 </div>
@@ -101,13 +117,13 @@
                         <!-- case Blokc One -->
                         <div class="case-block-one">
                             <div class="inner-box">
-                                <div class="image"><img src="assets/images/gallery/gallery-25.jpg" alt=""></div>
+                                <div class="image"><img src="{{ asset('assets/images/gallery/gallery-25.jpg')}}" alt=""></div>
                                 <div class="overlay">
                                     <div>
                                         <h5>Business Consultancy</h5>
                                         <h2>Brixer Donald Company Business</h2>
                                         <div class="link-btn flex-box">
-                                            <a href="assets/images/gallery/gallery-24.jpg" data-fancybox="gallery-1" data-caption="" class="theme-btn"><i>+</i></a>
+                                            <a href="{{ asset('assets/images/gallery/gallery-24.jpg')}}" data-fancybox="gallery-1" data-caption="" class="theme-btn"><i>+</i></a>
                                         </div>
                                     </div>                                          
                                 </div>
@@ -116,13 +132,13 @@
                         <!-- case Blokc One -->
                         <div class="case-block-one">
                             <div class="inner-box">
-                                <div class="image"><img src="assets/images/gallery/gallery-26.jpg" alt=""></div>
+                                <div class="image"><img src="{{ asset('assets/images/gallery/gallery-26.jpg')}}" alt=""></div>
                                 <div class="overlay">
                                     <div>
                                         <h5>Business Consultancy</h5>
                                         <h2>Brixer Donald Company Business</h2>
                                         <div class="link-btn flex-box">
-                                            <a href="assets/images/gallery/gallery-24.jpg" data-fancybox="gallery-1" data-caption="" class="theme-btn"><i>+</i></a>
+                                            <a href="{{ asset('assets/images/gallery/gallery-24.jpg')}}" data-fancybox="gallery-1" data-caption="" class="theme-btn"><i>+</i></a>
                                         </div>
                                     </div>                                          
                                 </div>
@@ -131,13 +147,13 @@
                         <!-- case Blokc One -->
                         <div class="case-block-one">
                             <div class="inner-box">
-                                <div class="image"><img src="assets/images/gallery/gallery-24.jpg" alt=""></div>
+                                <div class="image"><img src="{{ asset('assets/images/gallery/gallery-24.jpg')}}" alt=""></div>
                                 <div class="overlay">
                                     <div>
                                         <h5>Business Consultancy</h5>
                                         <h2>Brixer Donald Company Business</h2>
                                         <div class="link-btn flex-box">
-                                            <a href="assets/images/gallery/gallery-24.jpg" data-fancybox="gallery-1" data-caption="" class="theme-btn"><i>+</i></a>
+                                            <a href="{{ asset('assets/images/gallery/gallery-24.jpg')}}" data-fancybox="gallery-1" data-caption="" class="theme-btn"><i>+</i></a>
                                         </div>
                                     </div>                                          
                                 </div>
@@ -146,13 +162,13 @@
                         <!-- case Blokc One -->
                         <div class="case-block-one">
                             <div class="inner-box">
-                                <div class="image"><img src="assets/images/gallery/gallery-25.jpg" alt=""></div>
+                                <div class="image"><img src="{{ asset('assets/images/gallery/gallery-25.jpg')}}" alt=""></div>
                                 <div class="overlay">
                                     <div>
                                         <h5>Business Consultancy</h5>
                                         <h2>Brixer Donald Company Business</h2>
                                         <div class="link-btn flex-box">
-                                            <a href="assets/images/gallery/gallery-24.jpg" data-fancybox="gallery-1" data-caption="" class="theme-btn"><i>+</i></a>
+                                            <a href="{{ asset('assets/images/gallery/gallery-24.jpg')}}" data-fancybox="gallery-1" data-caption="" class="theme-btn"><i>+</i></a>
                                         </div>
                                     </div>                                          
                                 </div>
@@ -161,13 +177,13 @@
                         <!-- case Blokc One -->
                         <div class="case-block-one">
                             <div class="inner-box">
-                                <div class="image"><img src="assets/images/gallery/gallery-26.jpg" alt=""></div>
+                                <div class="image"><img src="{{ asset('assets/images/gallery/gallery-26.jpg')}}" alt=""></div>
                                 <div class="overlay">
                                     <div>
                                         <h5>Business Consultancy</h5>
                                         <h2>Brixer Donald Company Business</h2>
                                         <div class="link-btn flex-box">
-                                            <a href="assets/images/gallery/gallery-24.jpg" data-fancybox="gallery-1" data-caption="" class="theme-btn"><i>+</i></a>
+                                            <a href="{{ asset('assets/images/gallery/gallery-24.jpg')}}" data-fancybox="gallery-1" data-caption="" class="theme-btn"><i>+</i></a>
                                         </div>
                                     </div>                                          
                                 </div>
@@ -182,13 +198,13 @@
                         <!-- case Blokc One -->
                         <div class="case-block-one">
                             <div class="inner-box">
-                                <div class="image"><img src="assets/images/gallery/gallery-24.jpg" alt=""></div>
+                                <div class="image"><img src="{{ asset('assets/images/gallery/gallery-24.jpg')}}" alt=""></div>
                                 <div class="overlay">
                                     <div>
                                         <h5>Business Consultancy</h5>
                                         <h2>Brixer Donald Company Business</h2>
                                         <div class="link-btn flex-box">
-                                            <a href="assets/images/gallery/gallery-24.jpg" data-fancybox="gallery-1" data-caption="" class="theme-btn"><i>+</i></a>
+                                            <a href="{{ asset('assets/images/gallery/gallery-24.jpg')}}" data-fancybox="gallery-1" data-caption="" class="theme-btn"><i>+</i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -197,13 +213,13 @@
                         <!-- case Blokc One -->
                         <div class="case-block-one">
                             <div class="inner-box">
-                                <div class="image"><img src="assets/images/gallery/gallery-25.jpg" alt=""></div>
+                                <div class="image"><img src="{{ asset('assets/images/gallery/gallery-25.jpg')}}" alt=""></div>
                                 <div class="overlay">
                                     <div>
                                         <h5>Business Consultancy</h5>
                                         <h2>Brixer Donald Company Business</h2>
                                         <div class="link-btn flex-box">
-                                            <a href="assets/images/gallery/gallery-24.jpg" data-fancybox="gallery-1" data-caption="" class="theme-btn"><i>+</i></a>
+                                            <a href="{{ asset('assets/images/gallery/gallery-24.jpg')}}" data-fancybox="gallery-1" data-caption="" class="theme-btn"><i>+</i></a>
                                         </div>
                                     </div>                                          
                                 </div>
@@ -212,13 +228,13 @@
                         <!-- case Blokc One -->
                         <div class="case-block-one">
                             <div class="inner-box">
-                                <div class="image"><img src="assets/images/gallery/gallery-26.jpg" alt=""></div>
+                                <div class="image"><img src="{{ asset('assets/images/gallery/gallery-26.jpg')}}" alt=""></div>
                                 <div class="overlay">
                                     <div>
                                         <h5>Business Consultancy</h5>
                                         <h2>Brixer Donald Company Business</h2>
                                         <div class="link-btn flex-box">
-                                            <a href="assets/images/gallery/gallery-24.jpg" data-fancybox="gallery-1" data-caption="" class="theme-btn"><i>+</i></a>
+                                            <a href="{{ asset('assets/images/gallery/gallery-24.jpg')}}" data-fancybox="gallery-1" data-caption="" class="theme-btn"><i>+</i></a>
                                         </div>
                                     </div>                                          
                                 </div>
@@ -227,13 +243,13 @@
                         <!-- case Blokc One -->
                         <div class="case-block-one">
                             <div class="inner-box">
-                                <div class="image"><img src="assets/images/gallery/gallery-24.jpg" alt=""></div>
+                                <div class="image"><img src="{{ asset('assets/images/gallery/gallery-24.jpg')}}" alt=""></div>
                                 <div class="overlay">
                                     <div>
                                         <h5>Business Consultancy</h5>
                                         <h2>Brixer Donald Company Business</h2>
                                         <div class="link-btn flex-box">
-                                            <a href="assets/images/gallery/gallery-24.jpg" data-fancybox="gallery-1" data-caption="" class="theme-btn"><i>+</i></a>
+                                            <a href="{{ asset('assets/images/gallery/gallery-24.jpg')}}" data-fancybox="gallery-1" data-caption="" class="theme-btn"><i>+</i></a>
                                         </div>
                                     </div>                                          
                                 </div>
@@ -242,13 +258,13 @@
                         <!-- case Blokc One -->
                         <div class="case-block-one">
                             <div class="inner-box">
-                                <div class="image"><img src="assets/images/gallery/gallery-25.jpg" alt=""></div>
+                                <div class="image"><img src="{{ asset('assets/images/gallery/gallery-25.jpg')}}" alt=""></div>
                                 <div class="overlay">
                                     <div>
                                         <h5>Business Consultancy</h5>
                                         <h2>Brixer Donald Company Business</h2>
                                         <div class="link-btn flex-box">
-                                            <a href="assets/images/gallery/gallery-24.jpg" data-fancybox="gallery-1" data-caption="" class="theme-btn"><i>+</i></a>
+                                            <a href="{{ asset('assets/images/gallery/gallery-24.jpg')}}" data-fancybox="gallery-1" data-caption="" class="theme-btn"><i>+</i></a>
                                         </div>
                                     </div>                                          
                                 </div>
@@ -257,13 +273,13 @@
                         <!-- case Blokc One -->
                         <div class="case-block-one">
                             <div class="inner-box">
-                                <div class="image"><img src="assets/images/gallery/gallery-26.jpg" alt=""></div>
+                                <div class="image"><img src="{{ asset('assets/images/gallery/gallery-26.jpg')}}" alt=""></div>
                                 <div class="overlay">
                                     <div>
                                         <h5>Business Consultancy</h5>
                                         <h2>Brixer Donald Company Business</h2>
                                         <div class="link-btn flex-box">
-                                            <a href="assets/images/gallery/gallery-24.jpg" data-fancybox="gallery-1" data-caption="" class="theme-btn"><i>+</i></a>
+                                            <a href="{{ asset('assets/images/gallery/gallery-24.jpg')}}" data-fancybox="gallery-1" data-caption="" class="theme-btn"><i>+</i></a>
                                         </div>
                                     </div>                                          
                                 </div>
@@ -278,13 +294,13 @@
                         <!-- case Blokc One -->
                         <div class="case-block-one">
                             <div class="inner-box">
-                                <div class="image"><img src="assets/images/gallery/gallery-24.jpg" alt=""></div>
+                                <div class="image"><img src="{{ asset('assets/images/gallery/gallery-24.jpg')}}" alt=""></div>
                                 <div class="overlay">
                                     <div>
                                         <h5>Business Consultancy</h5>
                                         <h2>Brixer Donald Company Business</h2>
                                         <div class="link-btn flex-box">
-                                            <a href="assets/images/gallery/gallery-24.jpg" data-fancybox="gallery-1" data-caption="" class="theme-btn"><i>+</i></a>
+                                            <a href="{{ asset('assets/images/gallery/gallery-24.jpg')}}" data-fancybox="gallery-1" data-caption="" class="theme-btn"><i>+</i></a>
                                         </div>
                                     </div>                                          
                                 </div>
@@ -293,13 +309,13 @@
                         <!-- case Blokc One -->
                         <div class="case-block-one">
                             <div class="inner-box">
-                                <div class="image"><img src="assets/images/gallery/gallery-25.jpg" alt=""></div>
+                                <div class="image"><img src="{{ asset('assets/images/gallery/gallery-25.jpg')}}" alt=""></div>
                                 <div class="overlay">
                                     <div>
                                         <h5>Business Consultancy</h5>
                                         <h2>Brixer Donald Company Business</h2>
                                         <div class="link-btn flex-box">
-                                            <a href="assets/images/gallery/gallery-24.jpg" data-fancybox="gallery-1" data-caption="" class="theme-btn"><i>+</i></a>
+                                            <a href="{{ asset('assets/images/gallery/gallery-24.jpg')}}" data-fancybox="gallery-1" data-caption="" class="theme-btn"><i>+</i></a>
                                         </div>
                                     </div>                                          
                                 </div>
@@ -308,13 +324,13 @@
                         <!-- case Blokc One -->
                         <div class="case-block-one">
                             <div class="inner-box">
-                                <div class="image"><img src="assets/images/gallery/gallery-26.jpg" alt=""></div>
+                                <div class="image"><img src="{{ asset('assets/images/gallery/gallery-26.jpg')}}" alt=""></div>
                                 <div class="overlay">
                                     <div>
                                         <h5>Business Consultancy</h5>
                                         <h2>Brixer Donald Company Business</h2>
                                         <div class="link-btn flex-box">
-                                            <a href="assets/images/gallery/gallery-24.jpg" data-fancybox="gallery-1" data-caption="" class="theme-btn"><i>+</i></a>
+                                            <a href="{{ asset('assets/images/gallery/gallery-24.jpg')}}" data-fancybox="gallery-1" data-caption="" class="theme-btn"><i>+</i></a>
                                         </div>
                                     </div>                                          
                                 </div>
@@ -323,13 +339,13 @@
                         <!-- case Blokc One -->
                         <div class="case-block-one">
                             <div class="inner-box">
-                                <div class="image"><img src="assets/images/gallery/gallery-24.jpg" alt=""></div>
+                                <div class="image"><img src="{{ asset('assets/images/gallery/gallery-24.jpg')}}" alt=""></div>
                                 <div class="overlay">
                                     <div>
                                         <h5>Business Consultancy</h5>
                                         <h2>Brixer Donald Company Business</h2>
                                         <div class="link-btn flex-box">
-                                            <a href="assets/images/gallery/gallery-24.jpg" data-fancybox="gallery-1" data-caption="" class="theme-btn"><i>+</i></a>
+                                            <a href="{{ asset('assets/images/gallery/gallery-24.jpg')}}" data-fancybox="gallery-1" data-caption="" class="theme-btn"><i>+</i></a>
                                         </div>
                                     </div>                                          
                                 </div>
@@ -338,13 +354,13 @@
                         <!-- case Blokc One -->
                         <div class="case-block-one">
                             <div class="inner-box">
-                                <div class="image"><img src="assets/images/gallery/gallery-25.jpg" alt=""></div>
+                                <div class="image"><img src="{{ asset('assets/images/gallery/gallery-25.jpg')}}" alt=""></div>
                                 <div class="overlay">
                                     <div>
                                         <h5>Business Consultancy</h5>
                                         <h2>Brixer Donald Company Business</h2>
                                         <div class="link-btn flex-box">
-                                            <a href="assets/images/gallery/gallery-24.jpg" data-fancybox="gallery-1" data-caption="" class="theme-btn"><i>+</i></a>
+                                            <a href="{{ asset('assets/images/gallery/gallery-24.jpg')}}" data-fancybox="gallery-1" data-caption="" class="theme-btn"><i>+</i></a>
                                         </div>
                                     </div>                                          
                                 </div>
@@ -353,13 +369,13 @@
                         <!-- case Blokc One -->
                         <div class="case-block-one">
                             <div class="inner-box">
-                                <div class="image"><img src="assets/images/gallery/gallery-26.jpg" alt=""></div>
+                                <div class="image"><img src="{{ asset('assets/images/gallery/gallery-26.jpg')}}" alt=""></div>
                                 <div class="overlay">
                                     <div>
                                         <h5>Business Consultancy</h5>
                                         <h2>Brixer Donald Company Business</h2>
                                         <div class="link-btn flex-box">
-                                            <a href="assets/images/gallery/gallery-24.jpg" data-fancybox="gallery-1" data-caption="" class="theme-btn"><i>+</i></a>
+                                            <a href="{{ asset('assets/images/gallery/gallery-24.jpg')}}" data-fancybox="gallery-1" data-caption="" class="theme-btn"><i>+</i></a>
                                         </div>
                                     </div>                                          
                                 </div>
@@ -374,13 +390,13 @@
                         <!-- case Blokc One -->
                         <div class="case-block-one">
                             <div class="inner-box">
-                                <div class="image"><img src="assets/images/gallery/gallery-24.jpg" alt=""></div>
+                                <div class="image"><img src="{{ asset('assets/images/gallery/gallery-24.jpg')}}" alt=""></div>
                                 <div class="overlay">
                                     <div>
                                         <h5>Business Consultancy</h5>
                                         <h2>Brixer Donald Company Business</h2>
                                         <div class="link-btn flex-box">
-                                            <a href="assets/images/gallery/gallery-24.jpg" data-fancybox="gallery-1" data-caption="" class="theme-btn"><i>+</i></a>
+                                            <a href="{{ asset('assets/images/gallery/gallery-24.jpg')}}" data-fancybox="gallery-1" data-caption="" class="theme-btn"><i>+</i></a>
                                         </div>
                                     </div>                                          
                                 </div>
@@ -389,13 +405,13 @@
                         <!-- case Blokc One -->
                         <div class="case-block-one">
                             <div class="inner-box">
-                                <div class="image"><img src="assets/images/gallery/gallery-25.jpg" alt=""></div>
+                                <div class="image"><img src="{{ asset('assets/images/gallery/gallery-25.jpg')}}" alt=""></div>
                                 <div class="overlay">
                                     <div>
                                         <h5>Business Consultancy</h5>
                                         <h2>Brixer Donald Company Business</h2>
                                         <div class="link-btn flex-box">
-                                            <a href="assets/images/gallery/gallery-24.jpg" data-fancybox="gallery-1" data-caption="" class="theme-btn"><i>+</i></a>
+                                            <a href="{{ asset('assets/images/gallery/gallery-24.jpg')}}" data-fancybox="gallery-1" data-caption="" class="theme-btn"><i>+</i></a>
                                         </div>
                                     </div>                                          
                                 </div>
@@ -404,13 +420,13 @@
                         <!-- case Blokc One -->
                         <div class="case-block-one">
                             <div class="inner-box">
-                                <div class="image"><img src="assets/images/gallery/gallery-26.jpg" alt=""></div>
+                                <div class="image"><img src="{{ asset('assets/images/gallery/gallery-26.jpg')}}" alt=""></div>
                                 <div class="overlay">
                                     <div>
                                         <h5>Business Consultancy</h5>
                                         <h2>Brixer Donald Company Business</h2>
                                         <div class="link-btn flex-box">
-                                            <a href="assets/images/gallery/gallery-24.jpg" data-fancybox="gallery-1" data-caption="" class="theme-btn"><i>+</i></a>
+                                            <a href="{{ asset('assets/images/gallery/gallery-24.jpg')}}" data-fancybox="gallery-1" data-caption="" class="theme-btn"><i>+</i></a>
                                         </div>
                                     </div>                                          
                                 </div>
@@ -419,13 +435,13 @@
                         <!-- case Blokc One -->
                         <div class="case-block-one">
                             <div class="inner-box">
-                                <div class="image"><img src="assets/images/gallery/gallery-24.jpg" alt=""></div>
+                                <div class="image"><img src="{{ asset('assets/images/gallery/gallery-24.jpg')}}" alt=""></div>
                                 <div class="overlay">
                                     <div>
                                         <h5>Business Consultancy</h5>
                                         <h2>Brixer Donald Company Business</h2>
                                         <div class="link-btn flex-box">
-                                            <a href="assets/images/gallery/gallery-24.jpg" data-fancybox="gallery-1" data-caption="" class="theme-btn"><i>+</i></a>
+                                            <a href="{{ asset('assets/images/gallery/gallery-24.jpg')}}" data-fancybox="gallery-1" data-caption="" class="theme-btn"><i>+</i></a>
                                         </div>
                                     </div>                                          
                                 </div>
@@ -434,13 +450,13 @@
                         <!-- case Blokc One -->
                         <div class="case-block-one">
                             <div class="inner-box">
-                                <div class="image"><img src="assets/images/gallery/gallery-25.jpg" alt=""></div>
+                                <div class="image"><img src="{{ asset('assets/images/gallery/gallery-25.jpg')}}" alt=""></div>
                                 <div class="overlay">
                                     <div>
                                         <h5>Business Consultancy</h5>
                                         <h2>Brixer Donald Company Business</h2>
                                         <div class="link-btn flex-box">
-                                            <a href="assets/images/gallery/gallery-24.jpg" data-fancybox="gallery-1" data-caption="" class="theme-btn"><i>+</i></a>
+                                            <a href="{{ asset('assets/images/gallery/gallery-24.jpg')}}" data-fancybox="gallery-1" data-caption="" class="theme-btn"><i>+</i></a>
                                         </div>
                                     </div>                                          
                                 </div>
@@ -449,13 +465,13 @@
                         <!-- case Blokc One -->
                         <div class="case-block-one">
                             <div class="inner-box">
-                                <div class="image"><img src="assets/images/gallery/gallery-26.jpg" alt=""></div>
+                                <div class="image"><img src="{{ asset('assets/images/gallery/gallery-26.jpg')}}" alt=""></div>
                                 <div class="overlay">
                                     <div>
                                         <h5>Business Consultancy</h5>
                                         <h2>Brixer Donald Company Business</h2>
                                         <div class="link-btn flex-box">
-                                            <a href="assets/images/gallery/gallery-24.jpg" data-fancybox="gallery-1" data-caption="" class="theme-btn"><i>+</i></a>
+                                            <a href="{{ asset('assets/images/gallery/gallery-24.jpg')}}" data-fancybox="gallery-1" data-caption="" class="theme-btn"><i>+</i></a>
                                         </div>
                                     </div>                                          
                                 </div>
@@ -470,13 +486,13 @@
                         <!-- case Blokc One -->
                         <div class="case-block-one">
                             <div class="inner-box">
-                                <div class="image"><img src="assets/images/gallery/gallery-24.jpg" alt=""></div>
+                                <div class="image"><img src="{{ asset('assets/images/gallery/gallery-24.jpg')}}" alt=""></div>
                                 <div class="overlay">
                                     <div>
                                         <h5>Business Consultancy</h5>
                                         <h2>Brixer Donald Company Business</h2>
                                         <div class="link-btn flex-box">
-                                            <a href="assets/images/gallery/gallery-24.jpg" data-fancybox="gallery-1" data-caption="" class="theme-btn"><i>+</i></a>
+                                            <a href="{{ asset('assets/images/gallery/gallery-24.jpg')}}" data-fancybox="gallery-1" data-caption="" class="theme-btn"><i>+</i></a>
                                         </div>
                                     </div>                                          
                                 </div>
@@ -485,13 +501,13 @@
                         <!-- case Blokc One -->
                         <div class="case-block-one">
                             <div class="inner-box">
-                                <div class="image"><img src="assets/images/gallery/gallery-25.jpg" alt=""></div>
+                                <div class="image"><img src="{{ asset('assets/images/gallery/gallery-25.jpg')}}" alt=""></div>
                                 <div class="overlay">
                                     <div>
                                         <h5>Business Consultancy</h5>
                                         <h2>Brixer Donald Company Business</h2>
                                         <div class="link-btn flex-box">
-                                            <a href="assets/images/gallery/gallery-24.jpg" data-fancybox="gallery-1" data-caption="" class="theme-btn"><i>+</i></a>
+                                            <a href="{{ asset('assets/images/gallery/gallery-24.jpg')}}" data-fancybox="gallery-1" data-caption="" class="theme-btn"><i>+</i></a>
                                         </div>
                                     </div>                                          
                                 </div>
@@ -500,13 +516,13 @@
                         <!-- case Blokc One -->
                         <div class="case-block-one">
                             <div class="inner-box">
-                                <div class="image"><img src="assets/images/gallery/gallery-26.jpg" alt=""></div>
+                                <div class="image"><img src="{{ asset('assets/images/gallery/gallery-26.jpg')}}" alt=""></div>
                                 <div class="overlay">
                                     <div>
                                         <h5>Business Consultancy</h5>
                                         <h2>Brixer Donald Company Business</h2>
                                         <div class="link-btn flex-box">
-                                            <a href="assets/images/gallery/gallery-24.jpg" data-fancybox="gallery-1" data-caption="" class="theme-btn"><i>+</i></a>
+                                            <a href="{{ asset('assets/images/gallery/gallery-24.jpg')}}" data-fancybox="gallery-1" data-caption="" class="theme-btn"><i>+</i></a>
                                         </div>
                                     </div>                                          
                                 </div>
@@ -515,13 +531,13 @@
                         <!-- case Blokc One -->
                         <div class="case-block-one">
                             <div class="inner-box">
-                                <div class="image"><img src="assets/images/gallery/gallery-24.jpg" alt=""></div>
+                                <div class="image"><img src="{{ asset('assets/images/gallery/gallery-24.jpg')}}" alt=""></div>
                                 <div class="overlay">
                                     <div>
                                         <h5>Business Consultancy</h5>
                                         <h2>Brixer Donald Company Business</h2>
                                         <div class="link-btn flex-box">
-                                            <a href="assets/images/gallery/gallery-24.jpg" data-fancybox="gallery-1" data-caption="" class="theme-btn"><i>+</i></a>
+                                            <a href="{{ asset('assets/images/gallery/gallery-24.jpg')}}" data-fancybox="gallery-1" data-caption="" class="theme-btn"><i>+</i></a>
                                         </div>
                                     </div>                                          
                                 </div>
@@ -530,13 +546,13 @@
                         <!-- case Blokc One -->
                         <div class="case-block-one">
                             <div class="inner-box">
-                                <div class="image"><img src="assets/images/gallery/gallery-25.jpg" alt=""></div>
+                                <div class="image"><img src="{{ asset('assets/images/gallery/gallery-25.jpg')}}" alt=""></div>
                                 <div class="overlay">
                                     <div>
                                         <h5>Business Consultancy</h5>
                                         <h2>Brixer Donald Company Business</h2>
                                         <div class="link-btn flex-box">
-                                            <a href="assets/images/gallery/gallery-24.jpg" data-fancybox="gallery-1" data-caption="" class="theme-btn"><i>+</i></a>
+                                            <a href="{{ asset('assets/images/gallery/gallery-24.jpg')}}" data-fancybox="gallery-1" data-caption="" class="theme-btn"><i>+</i></a>
                                         </div>
                                     </div>                                          
                                 </div>
@@ -545,13 +561,13 @@
                         <!-- case Blokc One -->
                         <div class="case-block-one">
                             <div class="inner-box">
-                                <div class="image"><img src="assets/images/gallery/gallery-26.jpg" alt=""></div>
+                                <div class="image"><img src="{{ asset('assets/images/gallery/gallery-26.jpg')}}" alt=""></div>
                                 <div class="overlay">
                                     <div>
                                         <h5>Business Consultancy</h5>
                                         <h2>Brixer Donald Company Business</h2>
                                         <div class="link-btn flex-box">
-                                            <a href="assets/images/gallery/gallery-24.jpg" data-fancybox="gallery-1" data-caption="" class="theme-btn"><i>+</i></a>
+                                            <a href="{{ asset('assets/images/gallery/gallery-24.jpg')}}" data-fancybox="gallery-1" data-caption="" class="theme-btn"><i>+</i></a>
                                         </div>
                                     </div>                                          
                                 </div>

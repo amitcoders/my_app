@@ -9,7 +9,7 @@
 						<div class="footer-widget logo-widget">
                         	<div class="widget-content">
                                 <div class="footer-logo">
-                                    <a href="index-2.html"><img class="lazy-image" src="assets/images/resource/image-spacer-for-validation.png" data-src="assets/images/footer-logo.png" alt="" /></a>
+                                    <a href="index-2.html"><img class="lazy-image" src="{{ asset('assets/images/resource/image-spacer-for-validation.png')}}" data-src="{{ asset('assets/images/footer-logo.png')}}" alt="" /></a>
                                 </div>
                                 <div class="text">Lorem ipsum dolor sit amet, consect etur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</div>
                                 <ul class="social-links clearfix">
@@ -58,40 +58,40 @@
 							<div class="inner-box">
                                 <div class="wrapper-box">
                                     <div class="image">
-                                        <img class="lazy-image owl-lazy" src="assets/images/resource/image-spacer-for-validation.png" data-src="assets/images/gallery/gallery-1.jpg" alt="">
-                                        <div class="overlay-link"><a href="assets/images/gallery/gallery-1.jpg" class="lightbox-image" data-fancybox="gallery"><span class="fa fa-plus"></span></a></div>
+                                        <img class="lazy-image owl-lazy" src="{{ asset('assets/images/resource/image-spacer-for-validation.png')}}" data-src="assets/images/gallery/gallery-1.jpg" alt="">
+                                        <div class="overlay-link"><a href="{{ asset('assets/images/gallery/gallery-1.jpg')}}" class="lightbox-image" data-fancybox="gallery"><span class="fa fa-plus"></span></a></div>
                                     </div>
                                     <div class="image">
-                                        <img class="lazy-image owl-lazy" src="assets/images/resource/image-spacer-for-validation.png" data-src="assets/images/gallery/gallery-2.jpg" alt="">
-                                        <div class="overlay-link"><a href="assets/images/gallery/gallery-2.jpg" class="lightbox-image" data-fancybox="gallery"><span class="fa fa-plus"></span></a></div>
+                                        <img class="lazy-image owl-lazy" src="{{ asset('assets/images/resource/image-spacer-for-validation.png')}}" data-src="assets/images/gallery/gallery-2.jpg" alt="">
+                                        <div class="overlay-link"><a href="{{ asset('assets/images/gallery/gallery-2.jpg')}}" class="lightbox-image" data-fancybox="gallery"><span class="fa fa-plus"></span></a></div>
                                     </div>
                                     <div class="image">
-                                        <img class="lazy-image owl-lazy" src="assets/images/resource/image-spacer-for-validation.png" data-src="assets/images/gallery/gallery-3.jpg" alt="">
-                                        <div class="overlay-link"><a href="assets/images/gallery/gallery-3.jpg" class="lightbox-image" data-fancybox="gallery"><span class="fa fa-plus"></span></a></div>
+                                        <img class="lazy-image owl-lazy" src="{{ asset('assets/images/resource/image-spacer-for-validation.png')}}" data-src="assets/images/gallery/gallery-3.jpg" alt="">
+                                        <div class="overlay-link"><a href="{{ asset('assets/images/gallery/gallery-3.jpg')}}" class="lightbox-image" data-fancybox="gallery"><span class="fa fa-plus"></span></a></div>
                                     </div>
                                     <div class="image">
-                                        <img class="lazy-image owl-lazy" src="assets/images/resource/image-spacer-for-validation.png" data-src="assets/images/gallery/gallery-4.jpg" alt="">
-                                        <div class="overlay-link"><a href="assets/images/gallery/gallery-4.jpg" class="lightbox-image" data-fancybox="gallery"><span class="fa fa-plus"></span></a></div>
+                                        <img class="lazy-image owl-lazy" src="{{ asset('assets/images/resource/image-spacer-for-validation.png')}}" data-src="assets/images/gallery/gallery-4.jpg" alt="">
+                                        <div class="overlay-link"><a href="{{ asset('assets/images/gallery/gallery-4.jpg')}}" class="lightbox-image" data-fancybox="gallery"><span class="fa fa-plus"></span></a></div>
                                     </div>
                                     <div class="image">
-                                        <img class="lazy-image owl-lazy" src="assets/images/resource/image-spacer-for-validation.png" data-src="assets/images/gallery/gallery-5.jpg" alt="">
-                                        <div class="overlay-link"><a href="assets/images/gallery/gallery-5.jpg" class="lightbox-image" data-fancybox="gallery"><span class="fa fa-plus"></span></a></div>
+                                        <img class="lazy-image owl-lazy" src="{{ asset('assets/images/resource/image-spacer-for-validation.png')}}" data-src="assets/images/gallery/gallery-5.jpg" alt="">
+                                        <div class="overlay-link"><a href="{{ asset('assets/images/gallery/gallery-5.jpg')}}" class="lightbox-image" data-fancybox="gallery"><span class="fa fa-plus"></span></a></div>
                                     </div>
                                     <div class="image">
-                                        <img class="lazy-image owl-lazy" src="assets/images/resource/image-spacer-for-validation.png" data-src="assets/images/gallery/gallery-6.jpg" alt="">
-                                        <div class="overlay-link"><a href="assets/images/gallery/gallery-6.jpg" class="lightbox-image" data-fancybox="gallery"><span class="fa fa-plus"></span></a></div>
+                                        <img class="lazy-image owl-lazy" src="{{ asset('assets/images/resource/image-spacer-for-validation.png')}}" data-src="assets/images/gallery/gallery-6.jpg" alt="">
+                                        <div class="overlay-link"><a href="{{ asset('assets/images/gallery/gallery-6.jpg')}}" class="lightbox-image" data-fancybox="gallery"><span class="fa fa-plus"></span></a></div>
                                     </div>
                                     <div class="image">
-                                        <img class="lazy-image owl-lazy" src="assets/images/resource/image-spacer-for-validation.png" data-src="assets/images/gallery/gallery-7.jpg" alt="">
-                                        <div class="overlay-link"><a href="assets/images/gallery/gallery-7.jpg" class="lightbox-image" data-fancybox="gallery"><span class="fa fa-plus"></span></a></div>
+                                        <img class="lazy-image owl-lazy" src="{{ asset('assets/images/resource/image-spacer-for-validation.png')}}" data-src="assets/images/gallery/gallery-7.jpg" alt="">
+                                        <div class="overlay-link"><a href="{{ asset('assets/images/gallery/gallery-7.jpg')}}" class="lightbox-image" data-fancybox="gallery"><span class="fa fa-plus"></span></a></div>
                                     </div>
                                     <div class="image">
-                                        <img class="lazy-image owl-lazy" src="assets/images/resource/image-spacer-for-validation.png" data-src="assets/images/gallery/gallery-8.jpg" alt="">
-                                        <div class="overlay-link"><a href="assets/images/gallery/gallery-8.jpg" class="lightbox-image" data-fancybox="gallery"><span class="fa fa-plus"></span></a></div>
+                                        <img class="lazy-image owl-lazy" src="{{ asset('assets/images/resource/image-spacer-for-validation.png')}}" data-src="assets/images/gallery/gallery-8.jpg" alt="">
+                                        <div class="overlay-link"><a href="{{ asset('assets/images/gallery/gallery-8.jpg')}}" class="lightbox-image" data-fancybox="gallery"><span class="fa fa-plus"></span></a></div>
                                     </div>
                                     <div class="image">
-                                        <img class="lazy-image owl-lazy" src="assets/images/resource/image-spacer-for-validation.png" data-src="assets/images/gallery/gallery-9.jpg" alt="">
-                                        <div class="overlay-link"><a href="assets/images/gallery/gallery-9.jpg" class="lightbox-image" data-fancybox="gallery"><span class="fa fa-plus"></span></a></div>
+                                        <img class="lazy-image owl-lazy" src="{{ asset('assets/images/resource/image-spacer-for-validation.png')}}" data-src="{{ asset('assets/images/gallery/gallery-9.jpg')}}" alt="">
+                                        <div class="overlay-link"><a href="{{ asset('assets/images/gallery/gallery-9.jpg')}}" class="lightbox-image" data-fancybox="gallery"><span class="fa fa-plus"></span></a></div>
                                     </div>
                                 </div><!-- /.gallery-wrapper -->
                             </div>	

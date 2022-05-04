@@ -6,7 +6,7 @@
                     <div class="top-left">
                         <!--Logo-->
                         <div class="logo-box">
-                            <div class="logo"><a href="index-2.html"><img src="{{ asset('assets/images/logo.png')}}" alt=""></a></div>
+                            <div class="logo"><a href="{{ route('home')}}"><img src="{{ asset('assets/images/logo.png')}}" alt=""></a></div>
                         </div>
                     </div>
 
@@ -75,47 +75,47 @@
                                         </ul>
                                     </li>
                                     <li><a href="{{ route('aboutus')}}">About Us</a></li>
-                                    <li class="dropdown"><a href="#">Services</a>
+                                    <li class="dropdown"><a href="{{ route('services')}}">Services</a>
                                         <ul>
                                             <li><a href="services-1.html">Services One</a></li>
                                             <li><a href="services-2.html">Services Two</a></li>
 											<li><a href="services-details.html">Services Details</a></li>
                                         </ul>
                                     </li>
-                                    <li class="dropdown"><a href="#">Portfolio</a>
+                                    <li class="dropdown"><a href="{{ route('portofolio')}}">Portfolio</a>
                                         <ul>
-                                            <li><a href="portfolio-1.html">Portfolio One</a></li>
-                                            <li><a href="portfolio-2.html">Portfolio Two</a></li>
-                                            <li><a href="portfolio-details.html">Portfolio Details</a></li>
+                                            <li><a href="{{ route('portofolio')}}">Portfolio One</a></li>
+                                            <li><a href="{{ route('secondportfolio')}}">Portfolio Two</a></li>
+                                            <li><a href="{{ route('portofoliodetails')}}">Portfolio Details</a></li>
                                         </ul>
                                     </li>
                                     <li class="dropdown"><a href="#">News</a>
                                         <ul>
-                                            <li><a href="blog-grid.html">Blog Grid</a></li>
-                                            <li><a href="blog-standard.html">Blog Standard</a></li>
-                                            <li><a href="blog-details.html">Blog Details</a></li>
+                                            <li><a href="{{ route('bloggrid')}}">Blog Grid</a></li>
+                                            <li><a href="{{ route('blog_standard')}}">Blog Standard</a></li>
+                                            <li><a href="{{ route('blog_details')}}">Blog Details</a></li>
                                         </ul>
                                     </li>
                                     <li class="dropdown"><a href="#">Pages</a>
                                         <ul>
-                                            <li><a href="careers.html">Careers</a></li>
-                                            <li><a href="team.html">Team</a></li>
-                                            <li><a href="team-details.html">Team Details</a></li>
+                                            <li><a href="{{ route('careers')}}">Careers</a></li>
+                                            <li><a href="{{ route('team')}}">Team</a></li>
+                                            <li><a href="{{ route('teamdetails')}}">Team Details</a></li>
 											
-                                            <li class="dropdown"><a href="shop.html">Shop</a>
+                                            <li class="dropdown"><a href="{{ route('shop')}}">Shop</a>
                                                 <ul>
-                                                    <li><a href="shop.html">Products</a></li>
-                                                    <li><a href="product-details.html">Product Details</a></li>
-                                                    <li><a href="shopping-cart.html">Shopping Cart</a></li>
-                                                    <li><a href="checkout.html">Checkout</a></li>
+                                                    <li><a href="{{ route('products')}}">Products</a></li>
+                                                    <!-- <li><a href="product-details.html">Product Details</a></li> -->
+                                                    <li><a href="{{ route('shppingcart')}}">Shopping Cart</a></li>
+                                                    <li><a href="{{ route('checkout')}}">Checkout</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="faq.html">Faq's</a></li>
-                                            <li><a href="404.html">404</a></li>
+                                            <li><a href="{{ route('faq')}}">Faq's</a></li>
+                                            <li><a href="{{ route('error_page')}}">404</a></li>
                                         </ul>
                                     </li>
                                     
-                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="{{ route('contact')}}">Contact</a></li>
                                 </ul>
                             </div>
                         </nav>
